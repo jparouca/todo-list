@@ -1,0 +1,29 @@
+
+.taskForm{
+    width:100%;
+    align-items: center;
+}
+
+.taskForm textarea {
+    width: 40%;
+    background: var(--gray-500);
+    resize: none;
+    border-radius: 8px;
+    border: 0;
+    height: 3.75rem;
+    padding: 1rem;
+    color: var(--gray-300);
+    line-height: 1.4;
+}
+
+.taskForm button {
+    background: var(--blue-dark);
+    border-radius: 8px;
+    border: 0;
+    height: 3.25rem;
+    color: var(--gray-100);
+    font-weight: bold;
+    cursor: pointer;
+    width: 10%;
+    
+}
